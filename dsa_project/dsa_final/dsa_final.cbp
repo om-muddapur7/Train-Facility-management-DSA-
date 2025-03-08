@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="dsa_final" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/dsa_final" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/dsa_final" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="city_map_h.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="comm_betn_stations.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="efficient_speakers.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="entertainment.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="info_organization.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="light_facility.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="main_file.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="parking_space.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ticket_collection.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="train_route.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
